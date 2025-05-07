@@ -15,7 +15,6 @@ Despite its value, RoHo has rarely been applied in predictive modeling. This pro
 - Generate RoHo scores from mutation-annotated trees (e.g., UShER for SARS-CoV-2).
 - Train ML models (XGBoost, CatBoost) to predict high-RoHo mutations using genomic features.
 - Enrich predictions with biological context using LLMs and mutation databases (e.g., IEDB, GISAID).
-- Build a mutation monitoring tool or dashboard for real-time prioritization.
 
 ---
 
@@ -24,8 +23,6 @@ Despite its value, RoHo has rarely been applied in predictive modeling. This pro
 - **Data**: Use `matUtils` to generate RoHo scores from UShER MATs.
 - **Features**: Include mutation position, gene, mutation type, domain (e.g., RBD), recurrence, VOC status.
 - **Modeling**: Train and evaluate models with AUC and SHAP for interpretability.
-- **Enrichment**: Integrate LLMs (e.g., BioGPT) and structured databases for mutation impact context.
-- **Output**: Ranked mutation table and dashboard-ready pipeline.
 
 ---
 
