@@ -8,10 +8,6 @@ The **RoHo score** (Ratio of Homoplasic Offspring) is a phylogeny-based measure 
 
 Despite its value, RoHo has rarely been applied in predictive modeling. This project aims to combine RoHo scoring with machine learning and biological annotation to forecast high-risk mutations before they become widespread.
 
----
-
-## Objectives
-
 - Generate RoHo scores from mutation-annotated trees (e.g., UShER for SARS-CoV-2).
 - Train ML models (XGBoost, CatBoost) to predict high-RoHo mutations using genomic features.
 - Enrich predictions with biological context using LLMs and mutation databases (e.g., IEDB, GISAID).
@@ -26,15 +22,6 @@ Despite its value, RoHo has rarely been applied in predictive modeling. This pro
 
 ---
 
-## Expected Outcomes
-
-- A predictive framework for identifying mutations under positive selection.
-- A mutation ranking system for use by public health or research labs.
-- A working notebook or tool for genomic surveillance.
-- Potential publications in computational biology, virology, or AI in genomics.
-
----
-
 ## Applications
 
 - Real-time tracking of emerging viral mutations.
@@ -42,10 +29,6 @@ Despite its value, RoHo has rarely been applied in predictive modeling. This pro
 - Integration with platforms like Nextstrain or outbreak dashboards.
 
 ---
-
-## Significance
-
-This work combines phylogenetic insight, machine learning, and biological knowledge to prioritize viral mutations in advance—supporting early intervention and better pandemic response.
 
 ## Author
 Rezwanuzzaman Laskar
