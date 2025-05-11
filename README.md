@@ -12,23 +12,17 @@ Despite its value, RoHo has rarely been applied in predictive modeling. This pro
 - Train ML models (XGBoost, CatBoost) to predict high-RoHo mutations using genomic features.
 - Enrich predictions with biological context using LLMs and mutation databases (e.g., IEDB, GISAID).
 
----
-
 ## Methodology
 
 - **Data**: Use `matUtils` to generate RoHo scores from UShER MATs.
 - **Features**: Include mutation position, gene, mutation type, domain (e.g., RBD), recurrence, VOC status.
 - **Modeling**: Train and evaluate models with AUC and SHAP for interpretability.
 
----
-
 ## Applications
 
 - Real-time tracking of emerging viral mutations.
 - Input for vaccine design and epitope mapping.
 - Integration with platforms like Nextstrain or outbreak dashboards.
-
----
 
 ## Author
 Rezwanuzzaman Laskar
