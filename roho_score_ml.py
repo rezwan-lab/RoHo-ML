@@ -59,7 +59,7 @@ drive.mount('/content/drive')
 
 """Data Loading"""
 
-rdf = pd.read_csv('/content/drive/MyDrive/nibmg/Colab Notebooks/WA109/roho_scores.tsv',sep='\t', encoding="utf-8", low_memory=False, index_col=False)
+rdf = pd.read_csv('.../roho_scores.tsv',sep='\t', encoding="utf-8", low_memory=False, index_col=False)
 
 rdf.head(30)
 
